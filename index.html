@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Vishal Baretha</h1>
-        <p> <strong> Email : </strong> vishalbaretha632@gmail.com || <strong>Phone :</strong> +91 9691018606 || <strong>LinkedIn :</strong> linkedin.com/in/vishal-baretha</p>    </header>
+   <header>
+        <div class="container">
+            <!-- Profile Image -->
+            <img src="image.png" alt="Vishal Baretha" class="profile-photo">
+            <h1>Vishal Baretha</h1>
+            <p><strong>Email:</strong> vishalbaretha632@gmail.com || <strong>Phone:</strong> +91 9691018606 || <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/vishal-baretha" target="_blank">linkedin.com/in/vishal-baretha</a></p>
+        </div>
+    </header>
+
 
     <nav>
         <ul>
-            <li><a href="#personal-statement">Personal Statement</a></li>
+            <li><a href="#career objective">Career Objective</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -24,78 +30,115 @@
         </ul>
     </nav>
 
-    <section id="personal-statement">
-        <h2>Personal Statement</h2>
-        <p>I am a passionate engineering student excited about using technology to solve real-world problems. My studies have provided me with a strong foundation in engineering principles, and I enjoy applying what I’ve learned through projects</p>
+    <section id="career objective">
+        <h2>Career Objective</h2>
+        <p>I am a passionate engineering student excited about using technology to solve real-world problems. My studies have provided me with a strong foundation in engineering principles, and I enjoy applying what I’ve learned through projects and hands-on experience.</p>
     </section>
 
     <section id="education">
         <h2>Education</h2>
+        <h3>Graduation</h3>
         <p><strong>Degree:</strong> Bachelor of Technology in Computer Science </p>
         <p><strong>Indore Institute of Science and Technology :</strong> Rajiv Gandhi Proudyogiki Vishwavidyalaya</p>
         <p><strong>Graduation Year:</strong> 2026</p>
+       
+        <h3>Higher Secondary </h3>
+    <p><strong>Board:</strong> Madhya Pradesh Board of Secondary Education</p>
+    <p><strong>Year of Passing:</strong> 2022</p>
+    <p><strong>Stream:</strong> Science (Physics, Chemistry, Mathematics)</p>
+    <p><strong>Percentage:</strong> 88.04</p>
+
+    <h3>Secondary (10th)</h3>
+    <p><strong>Board:</strong> Madhya Pradesh Board of Secondary Education</p>
+    <p><strong>Year of Passing:</strong> 2020</p>
+    <p><strong>Percentage:</strong> 91</p>
       <!--  <p><strong>Relevant Coursework:</strong> List of relevant courses.</p>    -->
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <h3>Technical Skills</h3>
-        <ul>
-            <li>C || C++</li>
-            <li>Java (Core + Advance)</li>
-       	    <li>MySQL</li>	
-        </ul>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Problem-solving</li>
-        </ul>
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Municipal Coorporation Automation System</h3>
-            <p>Developed a smart home automation system using Java and <strong>Razorpay</strong> </p>
-            <p><strong>Technologies Used:</strong>  Front-end (HTML,CSS,JavaScript)  Back-end (Java,Servlet)  DataBase-MySQL</p>
-            <p><strong>Outcome:</strong> Develop a Website for Munipal Coorporation also helps to People in Pay the Taxes </p>
-            <a href="https://github.com/Vishall-hub" target="_blank">GitHub Link</a>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <div class="skills-container">
+        <div class="skill">
+            <img src="CCpp.jpg">
+            <p>C/Cpp Programming</p>
+           
         </div>
-        <!-- Add more projects as needed -->
-    </section>
-
-
-<!--   
- <section id="experience">
-        <h2>Internships/Work Experience</h2>
-        <div class="experience">
-            <h3>Internship Position</h3>
-            <p><strong>Company Name:</strong> Your Company</p>
-            <p><strong>Duration:</strong> Start Date - End Date</p>
-            <p><strong>Responsibilities:</strong> Key tasks and contributions.</p>
-            <p><strong>Achievements:</strong> Notable accomplishments.</p>
+        <div class="skill">
+            <img src="JavaIcon.jpg" alt="Java Icon">
+            <p>Java</p>
+           
         </div>
-        <!-- Add more experiences as needed -->
-    </section>
+        <div class="skill">
+            <img src="MySqlIcon.jpg" alt="MySQL Icon">
+            <p>MySQL</p>
+           
+        </div>
+        <div class="skill">
+            <img src="htmlicon.jpg" alt="HTML Icon">
+            <p>HTML</p>
+          
+        </div>
+       
+        <div class="skill">
+            <img src="JSIcon.jpg">
+            <p>JavaScript</p>
+            
+        </div>
+    </div>
 
--->
+    <h3>Soft Skills</h3>
+    <div class="soft-skills-container">
+        <ul>
+            <li><img src="https://img.icons8.com/ios-filled/50/000000/communication.png" alt="Communication Icon"> Communication</li>
+            <li><img src="https://img.icons8.com/ios-filled/50/000000/teamwork.png" alt="Teamwork Icon"> Teamwork</li>
+            <li><img src="https://img.icons8.com/ios-filled/50/000000/idea.png" alt="Problem-solving Icon"> Problem-solving</li>
+            <li><img src="https://img.icons8.com/ios-filled/50/000000/clock.png" alt="Time Management Icon"> Time Management</li>
+        </ul>
+    </div>
+</section>
+
+
+
+
+<section id="projects">
+    <h2>Projects</h2>
+    
+    <div class="project-card">
+        <h3>Municipal Corporation Automation System</h3>
+       
+        <p><strong>Role : TeamLeader and Backend developer</strong> </p>
+        <p> the development of an automated system for online tax payments. Designed and implemented 
+            the backend using Java, streamlining the tax collection process for users and improving efficiency.</p>
+        <p><strong>Technologies Used :</strong></p>
+        <p><strong>Front-end </strong> HTML, CSS, JavaScript</p>
+        <p><strong>Back-end </strong> Java, Servlet</p>
+        <p><strong>DataBase </strong> MySql</p>
+        <p><strong>Outcome:</strong> Developed a website for a Municipal Corporation to help people pay taxes online.</p>
+        <a href="https://github.com/Vishall-hub" target="_blank" class="project-link">GitHub Link</a>
+    </div>
+
+    <!-- Add more project cards here -->
+    
+</section>
+
+
+
+
 
     <section id="certifications">
         <h2>Certifications</h2>
         <ul>
-	    <li>Internal Hackthon-2024 Winner</li>
+	    <li>Internal Hackthon-2024 Participants</li>
             <li>Introduction to Html, Css, JavaScript </li>
             <li>Internal Hackthon-2023</li>
         </ul>
     </section>
 
-<!--  
-  <section id="extracurricular">
-        <h2>Extracurricular Activities</h2>
-        <p>Involvement in clubs, organizations, or volunteer work.</p>
-    </section>
--->
+
 
 
     <section id="references">

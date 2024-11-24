@@ -1,10 +1,12 @@
 /* General Styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -14,12 +16,109 @@ header {
     text-align: center;
 }
 
+header h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
 .profile-photo {
     width: 150px;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 10px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 20px;
+    border: 5px solid #fff; /* Optional: adds a border around the photo */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow effect */
 }
+
+/* Other Styles - Navigation, Sections, Footer, etc. */
+
+
+* General Styling for Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 8px;
+    background-color: #3498db;
+    border-radius: 10px;
+}
+
+/* Soft Skills Styling */
+.soft-skills-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.soft-skills-container ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.soft-skills-container ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .skills-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .soft-skills-container ul li {
+        font-size: 1em;
+    }
+}
+
+
 
 nav {
     background: #444;
@@ -79,3 +178,4 @@ footer {
         margin: 10px 0;
     }
 }
+
